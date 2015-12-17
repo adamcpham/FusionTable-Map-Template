@@ -163,7 +163,7 @@
         self.whereClause = self.locationColumn + " not equal to ''";
         
         //-----custom filters-----
-        var type_column = "'dot'";
+        var type_column = "'Dot'";
 
 if ( $("#rbType1").is(':checked')) self.whereClause += " AND " + type_column + "=2";
 if ( $("#rbType2").is(':checked')) self.whereClause += " AND " + type_column + "=1";
